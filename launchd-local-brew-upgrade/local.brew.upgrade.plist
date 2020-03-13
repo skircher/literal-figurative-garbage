@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>local.brew.upgrade</string>
+  <key>Program</key>
+  <string>path/to/wrapper/script/auto-brew-upgrade.sh</string>
+  <key>StandardOutPath</key>
+  <string>path/to/file/to/make/sure/it/works/foo.txt</string>
+  <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>10</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+</dict>
+</plist>
